@@ -90,7 +90,7 @@ impl Pkx for Pk6 {
     impl_read_prop!(language: u8 = 0xe3);
     impl_read_prop!(status_condition: u32 = 0xe8);
     // impl_read_prop!(stat_level: u8 = 0xec);
-    // impl_read_prop!(stat_hp_current: u16 = 0xf0);
+    impl_read_prop!(stat_hp_current: u16 = 0xf0);
     // impl_read_prop!(stat_hp_max: u16 = 0xf2);
     // impl_read_prop!(stat_atk: u16 = 0xf4);
     // impl_read_prop!(stat_def: u16 = 0xf6);
