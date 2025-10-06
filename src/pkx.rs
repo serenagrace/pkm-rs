@@ -67,7 +67,7 @@ pub trait Pkx: Sized {
     // fn stat_level(&self) -> u8;
     // fn stat_hp_max(&self) -> u16;
     fn stat_hp_current(&self) -> u16;
-    f// n stat_atk(&self) -> u16;
+    // fn stat_atk(&self) -> u16;
     // fn stat_def(&self) -> u16;
     // fn stat_spe(&self) -> u16;
     // fn stat_spa(&self) -> u16;
