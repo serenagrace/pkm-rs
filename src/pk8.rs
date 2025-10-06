@@ -91,7 +91,7 @@ impl Pkx for Pk8 {
     impl_read_prop!(move2_pp_ups: u8 = 0x7f);
     impl_read_prop!(move3_pp_ups: u8 = 0x80);
     impl_read_prop!(move4_pp_ups: u8 = 0x81);
-    // impl_read_prop!(stat_hp_current: u16 = 0x8a);
+    impl_read_prop!(stat_hp_current: u16 = 0x8a);
     impl_read_prop!(iv32: u32 = 0x8c);
     impl_read_prop!(status_condition: u32 = 0x94);
     impl_read_prop!(current_handler: u8 = 0xc4);
