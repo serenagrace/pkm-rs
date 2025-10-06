@@ -89,14 +89,14 @@ impl Pkx for Pk7 {
     impl_read_prop!(ball: u8 = 0xdc);
     impl_read_prop!(language: u8 = 0xe3);
     impl_read_prop!(status_condition: u32 = 0xe8);
-    impl_read_prop!(stat_level: u8 = 0xec);
+    // impl_read_prop!(stat_level: u8 = 0xec);
     impl_read_prop!(stat_hp_current: u16 = 0xf0);
-    impl_read_prop!(stat_hp_max: u16 = 0xf2);
-    impl_read_prop!(stat_atk: u16 = 0xf4);
-    impl_read_prop!(stat_def: u16 = 0xf6);
-    impl_read_prop!(stat_spe: u16 = 0xf8);
-    impl_read_prop!(stat_spa: u16 = 0xfa);
-    impl_read_prop!(stat_spd: u16 = 0xfc);
+    // impl_read_prop!(stat_hp_max: u16 = 0xf2);
+    // impl_read_prop!(stat_atk: u16 = 0xf4);
+    // impl_read_prop!(stat_def: u16 = 0xf6);
+    // impl_read_prop!(stat_spe: u16 = 0xf8);
+    // impl_read_prop!(stat_spa: u16 = 0xfa);
+    // impl_read_prop!(stat_spd: u16 = 0xfc);
 
     fn nickname(&self) -> String {
         string_converter7::get_string(&self.data[0x40..][..26])
