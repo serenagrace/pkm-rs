@@ -84,7 +84,7 @@ impl Pkx for Pa8 {
     impl_read_prop!(move2_pp_ups: u8 = 0x87);
     impl_read_prop!(move3_pp_ups: u8 = 0x88);
     impl_read_prop!(move4_pp_ups: u8 = 0x89);
-    // impl_read_prop!(stat_hp_current: u16 = 0x92);
+    impl_read_prop!(stat_hp_current: u16 = 0x92);
     impl_read_prop!(iv32: u32 = 0x94);
     impl_read_prop!(status_condition: u32 = 0x9c);
     impl_read_prop!(current_handler: u8 = 0xd4);
