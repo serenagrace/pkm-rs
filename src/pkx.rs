@@ -64,14 +64,14 @@ pub trait Pkx: Sized {
     fn status_condition(&self) -> u32;
 
     // Cannot implement until stat loading and box -> party conversion is added
-    fn stat_level(&self) -> u8;
-    fn stat_hp_max(&self) -> u16;
+    // fn stat_level(&self) -> u8;
+    // fn stat_hp_max(&self) -> u16;
     fn stat_hp_current(&self) -> u16;
-    fn stat_atk(&self) -> u16;
-    fn stat_def(&self) -> u16;
-    fn stat_spe(&self) -> u16;
-    fn stat_spa(&self) -> u16;
-    fn stat_spd(&self) -> u16;
+    f// n stat_atk(&self) -> u16;
+    // fn stat_def(&self) -> u16;
+    // fn stat_spe(&self) -> u16;
+    // fn stat_spa(&self) -> u16;
+    // fn stat_spd(&self) -> u16;
 
     fn encryption_constant(&self) -> u32;
     fn sanity(&self) -> u16;
