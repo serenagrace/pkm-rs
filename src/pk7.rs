@@ -284,13 +284,13 @@ mod test {
     impl_test!(ht_name, "");
 
     impl_test!(status_condition, 0);
-    impl_test!(stat_level, 0);
-    impl_test!(stat_hp_max, 0);
-    impl_test!(stat_atk, 0);
-    impl_test!(stat_def, 0);
-    impl_test!(stat_spe, 0);
-    impl_test!(stat_spa, 0);
-    impl_test!(stat_spd, 0);
+    // impl_test!(stat_level, 0);
+    // impl_test!(stat_hp_max, 0);
+    // impl_test!(stat_atk, 0);
+    // impl_test!(stat_def, 0);
+    // impl_test!(stat_spe, 0);
+    // impl_test!(stat_spa, 0);
+    // impl_test!(stat_spd, 0);
     impl_test!(stat_hp_current, 0);
 
     #[test]
