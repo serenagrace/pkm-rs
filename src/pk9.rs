@@ -92,13 +92,13 @@ impl Pkx for Pk9 {
     impl_read_prop!(ht_friendship: u8 = 0xc8);
     impl_read_prop!(ot_friendship: u8 = 0x112);
     impl_read_prop!(ball: u8 = 0x124);
-    // impl_read_prop!(stat_level: u8 = 0x148);
-    // impl_read_prop!(stat_hp_max: u16 = 0x14a);
-    // impl_read_prop!(stat_atk: u16 = 0x14c);
-    // impl_read_prop!(stat_def: u16 = 0x14e);
-    // impl_read_prop!(stat_spe: u16 = 0x150);
-    // impl_read_prop!(stat_spa: u16 = 0x152);
-    // impl_read_prop!(stat_spd: u16 = 0x154);
+    impl_read_prop!(stat_level: u8 = 0x148);
+    impl_read_prop!(stat_hp_max: u16 = 0x14a);
+    impl_read_prop!(stat_atk: u16 = 0x14c);
+    impl_read_prop!(stat_def: u16 = 0x14e);
+    impl_read_prop!(stat_spe: u16 = 0x150);
+    impl_read_prop!(stat_spa: u16 = 0x152);
+    impl_read_prop!(stat_spd: u16 = 0x154);
 
     fn nickname(&self) -> String {
         string_converter8::get_string(&self.data[0x58..][..26])
